@@ -155,19 +155,6 @@ export default function ParticipanteConfigView({
   const todosNomesPreenchidos = participantes.every(p => p.nome.trim() !== '');
 
   return (
-    <div id="participante-config-container" className="space-y-8 max-w-5xl mx-auto px-4 pb-12">
-      {/* Header do Config */}
-      <div className="bg-slate-900 rounded-xl p-6 md:p-8 border border-slate-800 shadow-xl text-center relative overflow-hidden">
-        <div className="absolute top-0 right-0 w-24 h-24 bg-amber-500/10 rounded-bl-full flex items-center justify-center">
-          <Trophy className="w-8 h-8 text-amber-500 transform translate-x-3 -translate-y-3" />
-        </div>
-        <h2 className="text-3xl font-extrabold font-display text-white tracking-tight sm:text-4xl uppercase">
-          MONTE SUA <span className="text-amber-500">ARENA DE COMPETIÇÃO</span>
-        </h2>
-        <p className="mt-3 max-w-2xl mx-auto text-slate-400 text-sm font-sans">
-          Personalize os competidores com fotos locais ou emojis divertidos. Defina a quantidade de forma geométrica e dê o pontapé inicial!
-        </p>
-      </div>
 
       {/* Opções de Tamanho do Torneio */}
       <div className="bg-slate-900 rounded-xl p-6 border border-slate-800 shadow-xl space-y-4">
