@@ -155,7 +155,7 @@ export default function ParticipanteConfigView({
   const todosNomesPreenchidos = participantes.every(p => p.nome.trim() !== '');
 
   return (
-
+    <div id="participante-config-container" className="space-y-8 max-w-5xl mx-auto px-4 pb-12 pt-6">
       {/* Opções de Tamanho do Torneio */}
       <div className="bg-slate-900 rounded-xl p-6 border border-slate-800 shadow-xl space-y-4">
         <h3 className="text-xs font-bold text-slate-400 uppercase tracking-widest font-display flex items-center gap-2">
