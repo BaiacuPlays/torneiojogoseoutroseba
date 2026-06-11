@@ -1,0 +1,6 @@
+{
+  "name": "Copa Personalizada",
+  "description": "Crie e realize torneios no formato Copa do Mundo, com fase de grupos, oitavas, quartas e finais com participantes e imagens customizados.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
